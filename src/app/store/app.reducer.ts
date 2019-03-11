@@ -11,7 +11,7 @@ export interface AppState {
 
 
 const initialState: State = {
-    name: 'test'
+    name: ''
   };
 
   export function appReducer(state = initialState, action: AppActions.AppActions) {

@@ -12,6 +12,7 @@ import { store } from '@angular/core/src/render3';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  title = 'NGRX';
   state: Subscription;
   name: string;
   constructor(private stored: Store<fromAppReducer.AppState>) { }
